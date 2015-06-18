@@ -1,0 +1,1083 @@
+{
+	"referenceInfoList": {
+		"/Users/xiashishi/github/egret-core/src/egret/i18n/cn.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/Ticker.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Timer.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/setTimeout.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/BitmapFont.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/devices/HTML5DeviceContext.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/extends.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/i18n/cn.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/IHashObject.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/IHashObject.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/Recycler.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/getTimer.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/RenderCommand.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RendererContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/player/RenderContext.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/IEventDispatcher.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Recycler.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/events/HTTPStatusEvent.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/IEventDispatcher.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/events/SoundEvent.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/events/FocusEvent.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/events/IOErrorEvent.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/IEventDispatcher.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/events/TouchEvent.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Point.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/IEventDispatcher.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/events/TimerEvent.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/IEventDispatcher.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/events/TextEvent.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/IEventDispatcher.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/events/ProgressEvent.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/IEventDispatcher.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/events/EventPhase.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/events/IEventDispatcher.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/IHashObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/events/EventDispatcher.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/IEventDispatcher.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Profiler.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/EventDispatcher.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RendererContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/interactive/TouchContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/net/NetContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/devices/DeviceContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Stage.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/Ticker.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/RenderCommand.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Recycler.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/Profiler.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObjectContainer.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextField.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/Ticker.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RendererContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/getTimer.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/Ticker.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/setTimeout.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/EventDispatcher.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/getTimer.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/layout/HorizontalAlign.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/layout/VerticalAlign.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/Timer.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/events/EventDispatcher.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/getTimer.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/Ticker.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/TimerEvent.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/getQualifiedClassName.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/getDefinitionByName.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/setTimeout.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/Ticker.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/setInterval.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/Ticker.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/hasDefinition.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/getDefinitionByName.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/toColorString.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/geom/Matrix.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts",
+			"/Users/xiashishi/github/egret-core/src/jslib/NumberUtils.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Point.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/geom/Point.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Point.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/geom/ColorTransform.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/geom/Transform.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Matrix.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/ColorTransform.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/SAXParser.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/Browser.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RenderFilter.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Matrix.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Texture.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RendererContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObject.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/Injector.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/getQualifiedClassName.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/filters/BitmapFilterQuality.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/filters/Filter.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/filters/BlurFilter.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/filters/Filter.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/filters/ColorMatrixFilter.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/filters/Filter.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/filters/GlowFilter.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/filters/Filter.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/filters/DropShadowFilter.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/filters/GlowFilter.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/display/BlendMode.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObjectProperties.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObjectContainer.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Stage.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/filters/Filter.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObjectPrivateProperties.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/RenderTexture.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObject.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObjectProperties.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObjectPrivateProperties.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Matrix.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RenderFilter.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Point.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/RenderTexture.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/EventDispatcher.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RenderFilter.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Texture.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObjectContainer.ts",
+			"/Users/xiashishi/github/egret-core/src/jslib/NumberUtils.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RendererContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/filters/ColorMatrixFilter.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/RenderCommand.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Stage.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/filters/Filter.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Transform.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObjectContainer.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Matrix.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/RenderCommand.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RendererContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/display/StageScaleMode.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/display/Stage.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/StageScaleMode.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObjectContainer.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Matrix.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/display/ScrollViewProperties.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Point.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/TouchEvent.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/tween/Tween.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/display/ScrollView.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/display/ScrollViewProperties.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Timer.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/getTimer.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/tween/Tween.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/tween/Ease.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObjectContainer.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/TouchEvent.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/TimerEvent.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/display/BitmapFillMode.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/display/Bitmap.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RenderFilter.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Texture.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RendererContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RenderFilter.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/text/BitmapText.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/BitmapFont.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RendererContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RenderFilter.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/display/Graphics.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/player/RenderContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RendererContext.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/display/Shape.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Graphics.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RendererContext.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/display/Sprite.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObjectContainer.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Graphics.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RendererContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Matrix.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObject.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/text/TextFieldUtils.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextField.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextFieldType.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/layout/HorizontalAlign.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/layout/VerticalAlign.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/text/TextFieldProperties.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextField.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/text/TextField.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextFieldProperties.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/InputController.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextFieldType.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Graphics.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/TouchEvent.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/TextEvent.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/toColorString.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextFieldUtils.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RendererContext.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/text/HtmlTextParser.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/text/TextFieldType.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/display/SpriteSheet.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Texture.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/text/InputController.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/display/StageText.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/TouchEvent.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/FocusEvent.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Stage.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextField.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObject.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/text/BitmapFont.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/display/SpriteSheet.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Texture.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/display/MovieClip.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RenderFilter.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Texture.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/MovieClipData.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RendererContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/FrameLabel.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/Ticker.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/display/FrameLabel.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/events/EventDispatcher.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/display/MovieClipData.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/SpriteSheet.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Texture.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/FrameLabel.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/display/MovieClipDataFactory.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/events/EventDispatcher.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/SpriteSheet.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Texture.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/MovieClipData.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/display/StageText.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextField.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/EventDispatcher.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/net/URLRequestMethod.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/net/URLLoaderDataFormat.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/net/URLVariables.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/net/URLRequestHeader.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/net/URLRequest.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLRequestMethod.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLRequestHeader.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/net/URLLoader.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/events/EventDispatcher.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLRequest.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/display/Texture.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/PromiseObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/Browser.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/display/RenderTexture.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RendererContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObjectContainer.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RenderFilter.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Texture.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RendererContext.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Matrix.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextField.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Profiler.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Texture.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/filters/Filter.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/BlendMode.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/interactive/InteractionMode.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/context/interactive/TouchContext.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/TouchEvent.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/net/NetContext.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLLoader.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLRequest.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLRequestMethod.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLVariables.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/devices/DeviceContext.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/external/ExternalInterface.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/context/Browser.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/localStorage/localStorage.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/XML.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/SAXParser.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/ByteArray.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/utils/getOption.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/tween/Tween.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/events/EventDispatcher.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/Ticker.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/tween/Ease.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/media/IAudio.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/media/Sound.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/events/EventDispatcher.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/SoundEvent.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/media/IAudio.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/jslib/NumberUtils.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Matrix.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/PromiseObject.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/context/net/IVersionController.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/context/devices/HTML5DeviceContext.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/getTimer.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/devices/DeviceContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/renderer/HTML5CanvasRenderer.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/Browser.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RendererContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/getTimer.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Matrix.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/BlendMode.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextFieldProperties.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextField.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Graphics.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Texture.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RenderFilter.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Stage.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/toColorString.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/renderer/IWebGLTemplate.ts": [],
+		"/Users/xiashishi/github/egret-core/src/egret/context/renderer/WebGLRenderer.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextField.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/RenderTexture.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/IWebGLTemplate.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RendererContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RenderFilter.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextFieldProperties.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextFieldType.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObjectContainer.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/Browser.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/BlendMode.ts",
+			"/Users/xiashishi/github/egret-core/src/jslib/NumberUtils.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Graphics.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/WebGLShaderManager.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Texture.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/HTML5CanvasRenderer.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Matrix.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Stage.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/filters/Filter.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/filters/DropShadowFilter.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/getTimer.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Profiler.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/shaders/ColorTransformShader.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/shaders/BlurShader.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/filters/BlurFilter.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/filters/ColorMatrixFilter.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/WebGLUtils.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/shaders/EgretShader.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/WebGLUtils.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/shaders/ColorTransformShader.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/shaders/EgretShader.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/shaders/BlurShader.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/shaders/EgretShader.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/shaders/PrimitiveShader.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/WebGLUtils.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/WebGLShaderManager.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/shaders/EgretShader.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/shaders/PrimitiveShader.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/shaders/ColorTransformShader.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/shaders/BlurShader.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/net/HTML5NetContext.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/net/IVersionController.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/Html5Capatibility.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/setTimeout.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/setTimeout.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/net/NetContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Texture.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLLoader.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/Html5Capatibility.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLRequest.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLRequestMethod.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLVariables.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/HTTPStatusEvent.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/IOErrorEvent.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/audio/Html5Audio.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/media/Sound.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/audio/QQAudio.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/audio/WebAudio.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/interactive/HTML5TouchContext.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/Browser.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/interactive/TouchContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/display/HTML5StageText.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Point.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/display/HTML5StageText.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextField.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextFieldProperties.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/Browser.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/display/StageText.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/audio/Html5Audio.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/media/IAudio.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/Html5Capatibility.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/Html5Capatibility.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/audio/WebAudio.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/media/IAudio.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/audio/QQAudio.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/media/Sound.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/media/IAudio.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/Html5Capatibility.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/audio/Html5Audio.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/audio/QQAudio.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/audio/WebAudio.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/devices/NativeDeviceContext.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/external/ExternalInterface.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/RenderTexture.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/NativeRendererContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/getOption.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextField.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/renderer/NativeRendererContext.ts": [
+			"/Users/xiashishi/github/egret-core/src/jslib/NumberUtils.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Matrix.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/BlendMode.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextFieldProperties.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextField.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Graphics.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/renderer/RendererContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Texture.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/filters/Filter.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/filters/DropShadowFilter.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/RenderTexture.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/filters/ColorMatrixFilter.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/interactive/NativeTouchContext.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/interactive/TouchContext.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/net/NativeNetContext.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/context/net/IVersionController.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/PromiseObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLRequestHeader.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/IOErrorEvent.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/media/Sound.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Texture.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/net/NetContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLLoader.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLRequest.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLRequestMethod.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLVariables.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/audio/NativeAudio.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/display/NativeStageText.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/text/TextField.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/DisplayObjectContainer.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Shape.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/layout/HorizontalAlign.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Stage.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/display/StageText.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/net/NativeResourceLoader.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/events/EventDispatcher.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/PromiseObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/ProgressEvent.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/IOErrorEvent.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/egret/context/audio/NativeAudio.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/media/Sound.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/net/NativeNetContext.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/PromiseObject.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/media/IAudio.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/extension/oldVersion/NativeVersionController.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/events/EventDispatcher.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/net/NativeResourceLoader.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/IOErrorEvent.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/context/net/IVersionController.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/extension/resource/events/ResourceEvent.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/IEventDispatcher.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceItem.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceItem.ts": [],
+		"/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceConfig.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceItem.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceLoader.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/events/EventDispatcher.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Injector.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceItem.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/events/ResourceEvent.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/AnalyzerBase.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/AnalyzerBase.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceConfig.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceItem.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/BinAnalyzer.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLLoader.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLRequest.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Recycler.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/IOErrorEvent.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/AnalyzerBase.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceItem.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/ImageAnalyzer.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/BinAnalyzer.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceItem.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/JsonAnalyzer.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/BinAnalyzer.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceItem.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/TextAnalyzer.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/BinAnalyzer.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/SheetAnalyzer.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/AnalyzerBase.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/SpriteSheet.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLLoader.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/display/Texture.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/BinAnalyzer.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceItem.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/FontAnalyzer.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/display/Texture.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/text/BitmapFont.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/SheetAnalyzer.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceItem.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/SoundAnalyzer.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/media/Sound.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/BinAnalyzer.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceItem.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/XMLAnalyzer.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/net/URLLoaderDataFormat.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/XML.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/BinAnalyzer.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceItem.ts"
+		],
+		"/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts": [
+			"/Users/xiashishi/github/egret-core/src/egret/events/EventDispatcher.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/Injector.ts",
+			"/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/AnalyzerBase.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceItem.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceLoader.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/BinAnalyzer.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/ImageAnalyzer.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/TextAnalyzer.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/JsonAnalyzer.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/SheetAnalyzer.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/FontAnalyzer.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/SoundAnalyzer.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/XMLAnalyzer.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceConfig.ts",
+			"/Users/xiashishi/github/egret-core/src/extension/resource/events/ResourceEvent.ts"
+		]
+	},
+	"classNameToPath": {
+		"egret.egret_string_code": "/Users/xiashishi/github/egret-core/src/egret/i18n/cn.ts",
+		"__extends": "/Users/xiashishi/github/egret-core/src/egret/utils/extends.ts",
+		"egret.Logger": "/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+		"egret.getString": "/Users/xiashishi/github/egret-core/src/egret/utils/Logger.ts",
+		"egret.IHashObject": "/Users/xiashishi/github/egret-core/src/egret/utils/IHashObject.ts",
+		"egret.HashObject": "/Users/xiashishi/github/egret-core/src/egret/utils/HashObject.ts",
+		"egret.Recycler": "/Users/xiashishi/github/egret-core/src/egret/utils/Recycler.ts",
+		"egret.__START_TIME": "/Users/xiashishi/github/egret-core/src/egret/utils/getTimer.ts",
+		"egret.getTimer": "/Users/xiashishi/github/egret-core/src/egret/utils/getTimer.ts",
+		"egret.__callLaterFunctionList": "/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+		"egret.__callLaterThisList": "/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+		"egret.__callLaterArgsList": "/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+		"egret.callLater": "/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+		"egret.__callAsyncFunctionList": "/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+		"egret.__callAsyncThisList": "/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+		"egret.__callAsyncArgsList": "/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+		"egret.__callAsync": "/Users/xiashishi/github/egret-core/src/egret/utils/callLater.ts",
+		"egret.RenderCommand": "/Users/xiashishi/github/egret-core/src/egret/utils/RenderCommand.ts",
+		"egret.RenderContext": "/Users/xiashishi/github/egret-core/src/egret/player/RenderContext.ts",
+		"egret.Event": "/Users/xiashishi/github/egret-core/src/egret/events/Event.ts",
+		"egret.HTTPStatusEvent": "/Users/xiashishi/github/egret-core/src/egret/events/HTTPStatusEvent.ts",
+		"egret.SoundEvent": "/Users/xiashishi/github/egret-core/src/egret/events/SoundEvent.ts",
+		"egret.FocusEvent": "/Users/xiashishi/github/egret-core/src/egret/events/FocusEvent.ts",
+		"egret.IOErrorEvent": "/Users/xiashishi/github/egret-core/src/egret/events/IOErrorEvent.ts",
+		"egret.TouchEvent": "/Users/xiashishi/github/egret-core/src/egret/events/TouchEvent.ts",
+		"egret.TimerEvent": "/Users/xiashishi/github/egret-core/src/egret/events/TimerEvent.ts",
+		"egret.TextEvent": "/Users/xiashishi/github/egret-core/src/egret/events/TextEvent.ts",
+		"egret.ProgressEvent": "/Users/xiashishi/github/egret-core/src/egret/events/ProgressEvent.ts",
+		"egret.EventPhase": "/Users/xiashishi/github/egret-core/src/egret/events/EventPhase.ts",
+		"egret.IEventDispatcher": "/Users/xiashishi/github/egret-core/src/egret/events/IEventDispatcher.ts",
+		"egret.EventDispatcher": "/Users/xiashishi/github/egret-core/src/egret/events/EventDispatcher.ts",
+		"egret.MainContext": "/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+		"testDeviceType": "/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+		"testRuntimeType": "/Users/xiashishi/github/egret-core/src/egret/context/MainContext.ts",
+		"egret.Profiler": "/Users/xiashishi/github/egret-core/src/egret/utils/Profiler.ts",
+		"egret.Ticker": "/Users/xiashishi/github/egret-core/src/egret/context/Ticker.ts",
+		"egret.HorizontalAlign": "/Users/xiashishi/github/egret-core/src/egret/layout/HorizontalAlign.ts",
+		"egret.VerticalAlign": "/Users/xiashishi/github/egret-core/src/egret/layout/VerticalAlign.ts",
+		"egret.Timer": "/Users/xiashishi/github/egret-core/src/egret/utils/Timer.ts",
+		"egret.getQualifiedClassName": "/Users/xiashishi/github/egret-core/src/egret/utils/getQualifiedClassName.ts",
+		"egret.getQualifiedSuperclassName": "/Users/xiashishi/github/egret-core/src/egret/utils/getQualifiedClassName.ts",
+		"egret.getDefinitionByName": "/Users/xiashishi/github/egret-core/src/egret/utils/getDefinitionByName.ts",
+		"__global": "/Users/xiashishi/github/egret-core/src/egret/utils/getDefinitionByName.ts",
+		"egret.setTimeout": "/Users/xiashishi/github/egret-core/src/egret/utils/setTimeout.ts",
+		"egret.clearTimeout": "/Users/xiashishi/github/egret-core/src/egret/utils/setTimeout.ts",
+		"egret.setInterval": "/Users/xiashishi/github/egret-core/src/egret/utils/setInterval.ts",
+		"egret.clearInterval": "/Users/xiashishi/github/egret-core/src/egret/utils/setInterval.ts",
+		"egret.hasDefinition": "/Users/xiashishi/github/egret-core/src/egret/utils/hasDefinition.ts",
+		"egret.toColorString": "/Users/xiashishi/github/egret-core/src/egret/utils/toColorString.ts",
+		"egret.Matrix": "/Users/xiashishi/github/egret-core/src/egret/geom/Matrix.ts",
+		"egret.Point": "/Users/xiashishi/github/egret-core/src/egret/geom/Point.ts",
+		"egret.Rectangle": "/Users/xiashishi/github/egret-core/src/egret/geom/Rectangle.ts",
+		"egret.ColorTransform": "/Users/xiashishi/github/egret-core/src/egret/geom/ColorTransform.ts",
+		"egret.Transform": "/Users/xiashishi/github/egret-core/src/egret/geom/Transform.ts",
+		"egret.SAXParser": "/Users/xiashishi/github/egret-core/src/egret/utils/SAXParser.ts",
+		"egret.StageDelegate": "/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+		"egret.ResolutionPolicy": "/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+		"egret.ContainerStrategy": "/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+		"egret.EqualToFrame": "/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+		"egret.ContentStrategy": "/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+		"egret.FixedHeight": "/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+		"egret.FixedWidth": "/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+		"egret.FixedSize": "/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+		"egret.NoScale": "/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+		"egret.ShowAll": "/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+		"egret.FullScreen": "/Users/xiashishi/github/egret-core/src/egret/context/StageDelegate.ts",
+		"egret.RenderFilter": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/RenderFilter.ts",
+		"egret.RenderData": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/RenderFilter.ts",
+		"egret.Injector": "/Users/xiashishi/github/egret-core/src/egret/utils/Injector.ts",
+		"egret.BitmapFilterQuality.LOW": "/Users/xiashishi/github/egret-core/src/egret/filters/BitmapFilterQuality.ts",
+		"egret.BitmapFilterQuality.MEDIUM": "/Users/xiashishi/github/egret-core/src/egret/filters/BitmapFilterQuality.ts",
+		"egret.BitmapFilterQuality.HIGH": "/Users/xiashishi/github/egret-core/src/egret/filters/BitmapFilterQuality.ts",
+		"egret.Filter": "/Users/xiashishi/github/egret-core/src/egret/filters/Filter.ts",
+		"egret.BlurFilter": "/Users/xiashishi/github/egret-core/src/egret/filters/BlurFilter.ts",
+		"egret.ColorMatrixFilter": "/Users/xiashishi/github/egret-core/src/egret/filters/ColorMatrixFilter.ts",
+		"egret.GlowFilter": "/Users/xiashishi/github/egret-core/src/egret/filters/GlowFilter.ts",
+		"egret.DropShadowFilter": "/Users/xiashishi/github/egret-core/src/egret/filters/DropShadowFilter.ts",
+		"egret.BlendMode": "/Users/xiashishi/github/egret-core/src/egret/display/BlendMode.ts",
+		"egret.DisplayObjectProperties": "/Users/xiashishi/github/egret-core/src/egret/display/DisplayObjectProperties.ts",
+		"egret.DisplayObjectPrivateProperties": "/Users/xiashishi/github/egret-core/src/egret/display/DisplayObjectPrivateProperties.ts",
+		"egret.DisplayObject": "/Users/xiashishi/github/egret-core/src/egret/display/DisplayObject.ts",
+		"egret.DisplayObjectContainer": "/Users/xiashishi/github/egret-core/src/egret/display/DisplayObjectContainer.ts",
+		"egret.StageScaleMode": "/Users/xiashishi/github/egret-core/src/egret/display/StageScaleMode.ts",
+		"egret.Stage": "/Users/xiashishi/github/egret-core/src/egret/display/Stage.ts",
+		"egret.ScrollViewProperties": "/Users/xiashishi/github/egret-core/src/egret/display/ScrollViewProperties.ts",
+		"egret.ScrollView": "/Users/xiashishi/github/egret-core/src/egret/display/ScrollView.ts",
+		"egret.BitmapFillMode": "/Users/xiashishi/github/egret-core/src/egret/display/BitmapFillMode.ts",
+		"egret.Bitmap": "/Users/xiashishi/github/egret-core/src/egret/display/Bitmap.ts",
+		"egret.BitmapText": "/Users/xiashishi/github/egret-core/src/egret/text/BitmapText.ts",
+		"egret.Graphics": "/Users/xiashishi/github/egret-core/src/egret/display/Graphics.ts",
+		"egret.Command": "/Users/xiashishi/github/egret-core/src/egret/display/Graphics.ts",
+		"egret.Shape": "/Users/xiashishi/github/egret-core/src/egret/display/Shape.ts",
+		"egret.Sprite": "/Users/xiashishi/github/egret-core/src/egret/display/Sprite.ts",
+		"egret.TextFieldUtils": "/Users/xiashishi/github/egret-core/src/egret/text/TextFieldUtils.ts",
+		"egret.TextFieldProperties": "/Users/xiashishi/github/egret-core/src/egret/text/TextFieldProperties.ts",
+		"egret.IHitTextElement": "/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts",
+		"egret.ITextStyle": "/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts",
+		"egret.ITextElement": "/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts",
+		"egret.IWTextElement": "/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts",
+		"egret.ILineElement": "/Users/xiashishi/github/egret-core/src/egret/text/ITextElement.ts",
+		"egret.TextField": "/Users/xiashishi/github/egret-core/src/egret/text/TextField.ts",
+		"egret.HtmlTextParser": "/Users/xiashishi/github/egret-core/src/egret/text/HtmlTextParser.ts",
+		"egret.TextFieldType": "/Users/xiashishi/github/egret-core/src/egret/text/TextFieldType.ts",
+		"egret.SpriteSheet": "/Users/xiashishi/github/egret-core/src/egret/display/SpriteSheet.ts",
+		"egret.InputController": "/Users/xiashishi/github/egret-core/src/egret/text/InputController.ts",
+		"egret.BitmapFont": "/Users/xiashishi/github/egret-core/src/egret/text/BitmapFont.ts",
+		"egret.MovieClip": "/Users/xiashishi/github/egret-core/src/egret/display/MovieClip.ts",
+		"egret.FrameLabel": "/Users/xiashishi/github/egret-core/src/egret/display/FrameLabel.ts",
+		"egret.MovieClipData": "/Users/xiashishi/github/egret-core/src/egret/display/MovieClipData.ts",
+		"egret.MovieClipDataFactory": "/Users/xiashishi/github/egret-core/src/egret/display/MovieClipDataFactory.ts",
+		"egret.StageText": "/Users/xiashishi/github/egret-core/src/egret/context/display/StageText.ts",
+		"egret.URLRequestMethod": "/Users/xiashishi/github/egret-core/src/egret/net/URLRequestMethod.ts",
+		"egret.URLLoaderDataFormat": "/Users/xiashishi/github/egret-core/src/egret/net/URLLoaderDataFormat.ts",
+		"egret.URLVariables": "/Users/xiashishi/github/egret-core/src/egret/net/URLVariables.ts",
+		"egret.URLRequestHeader": "/Users/xiashishi/github/egret-core/src/egret/net/URLRequestHeader.ts",
+		"egret.URLRequest": "/Users/xiashishi/github/egret-core/src/egret/net/URLRequest.ts",
+		"egret.URLLoader": "/Users/xiashishi/github/egret-core/src/egret/net/URLLoader.ts",
+		"egret.Texture": "/Users/xiashishi/github/egret-core/src/egret/display/Texture.ts",
+		"egret.RenderTexture": "/Users/xiashishi/github/egret-core/src/egret/display/RenderTexture.ts",
+		"egret.RendererContext": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/RendererContext.ts",
+		"egret.InteractionMode": "/Users/xiashishi/github/egret-core/src/egret/context/interactive/InteractionMode.ts",
+		"egret.TouchContext": "/Users/xiashishi/github/egret-core/src/egret/context/interactive/TouchContext.ts",
+		"egret.NetContext": "/Users/xiashishi/github/egret-core/src/egret/context/net/NetContext.ts",
+		"egret.DeviceContext": "/Users/xiashishi/github/egret-core/src/egret/context/devices/DeviceContext.ts",
+		"egret.ExternalInterface": "/Users/xiashishi/github/egret-core/src/egret/context/external/ExternalInterface.ts",
+		"egret.Browser": "/Users/xiashishi/github/egret-core/src/egret/context/Browser.ts",
+		"egret.localStorage.getItem": "/Users/xiashishi/github/egret-core/src/egret/context/localStorage/localStorage.ts",
+		"egret.localStorage.setItem": "/Users/xiashishi/github/egret-core/src/egret/context/localStorage/localStorage.ts",
+		"egret.localStorage.removeItem": "/Users/xiashishi/github/egret-core/src/egret/context/localStorage/localStorage.ts",
+		"egret.localStorage.clear": "/Users/xiashishi/github/egret-core/src/egret/context/localStorage/localStorage.ts",
+		"egret.XML": "/Users/xiashishi/github/egret-core/src/egret/utils/XML.ts",
+		"egret.Endian": "/Users/xiashishi/github/egret-core/src/egret/utils/ByteArray.ts",
+		"egret.ByteArray": "/Users/xiashishi/github/egret-core/src/egret/utils/ByteArray.ts",
+		"egret.getOption": "/Users/xiashishi/github/egret-core/src/egret/utils/getOption.ts",
+		"egret.Tween": "/Users/xiashishi/github/egret-core/src/egret/tween/Tween.ts",
+		"egret.Ease": "/Users/xiashishi/github/egret-core/src/egret/tween/Ease.ts",
+		"egret.IAudio": "/Users/xiashishi/github/egret-core/src/egret/media/IAudio.ts",
+		"egret.Sound": "/Users/xiashishi/github/egret-core/src/egret/media/Sound.ts",
+		"egret.NumberUtils": "/Users/xiashishi/github/egret-core/src/jslib/NumberUtils.ts",
+		"egret_sin_map": "/Users/xiashishi/github/egret-core/src/jslib/NumberUtils.ts",
+		"egret_cos_map": "/Users/xiashishi/github/egret-core/src/jslib/NumberUtils.ts",
+		"NumberUtils_i": "/Users/xiashishi/github/egret-core/src/jslib/NumberUtils.ts",
+		"egret.PromiseObject": "/Users/xiashishi/github/egret-core/src/egret/context/PromiseObject.ts",
+		"egret.IVersionController": "/Users/xiashishi/github/egret-core/src/egret/context/net/IVersionController.ts",
+		"egret.HTML5DeviceContext": "/Users/xiashishi/github/egret-core/src/egret/context/devices/HTML5DeviceContext.ts",
+		"egret_html5_localStorage.getItem": "/Users/xiashishi/github/egret-core/src/egret/context/devices/HTML5DeviceContext.ts",
+		"egret_html5_localStorage.setItem": "/Users/xiashishi/github/egret-core/src/egret/context/devices/HTML5DeviceContext.ts",
+		"egret_html5_localStorage.removeItem": "/Users/xiashishi/github/egret-core/src/egret/context/devices/HTML5DeviceContext.ts",
+		"egret_html5_localStorage.clear": "/Users/xiashishi/github/egret-core/src/egret/context/devices/HTML5DeviceContext.ts",
+		"egret_html5_localStorage.init": "/Users/xiashishi/github/egret-core/src/egret/context/devices/HTML5DeviceContext.ts",
+		"egret.HTML5CanvasRenderer": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/HTML5CanvasRenderer.ts",
+		"egret.IWebGLTemplate": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/IWebGLTemplate.ts",
+		"egret.WebGLRenderer": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.beginFill": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.drawRect": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.drawCircle": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.drawRoundRect": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.drawEllipse": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.lineStyle": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.lineTo": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.curveTo": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.cubicCurveTo": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.moveTo": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.clear": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.endFill": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics._pushCommand": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics._draw": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.Command": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics._setStyle": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret_webgl_graphics.init": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/WebGLRenderer.ts",
+		"egret.WebGLUtils": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/WebGLUtils.ts",
+		"egret.EgretShader": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/shaders/EgretShader.ts",
+		"egret.ColorTransformShader": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/shaders/ColorTransformShader.ts",
+		"egret.BlurShader": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/shaders/BlurShader.ts",
+		"egret.PrimitiveShader": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/shaders/PrimitiveShader.ts",
+		"egret.WebGLShaderManager": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/webgl/WebGLShaderManager.ts",
+		"egret.HTML5NetContext": "/Users/xiashishi/github/egret-core/src/egret/context/net/HTML5NetContext.ts",
+		"egret.HTML5TouchContext": "/Users/xiashishi/github/egret-core/src/egret/context/interactive/HTML5TouchContext.ts",
+		"egret.HTML5StageText": "/Users/xiashishi/github/egret-core/src/egret/context/display/HTML5StageText.ts",
+		"egret.HTMLInput": "/Users/xiashishi/github/egret-core/src/egret/context/display/HTML5StageText.ts",
+		"egret.Html5Audio": "/Users/xiashishi/github/egret-core/src/egret/context/audio/Html5Audio.ts",
+		"egret.WebAudio": "/Users/xiashishi/github/egret-core/src/egret/context/audio/WebAudio.ts",
+		"AudioBuffer": "/Users/xiashishi/github/egret-core/src/egret/context/audio/WebAudio.ts",
+		"AudioBufferSourceNode": "/Users/xiashishi/github/egret-core/src/egret/context/audio/WebAudio.ts",
+		"egret.QQAudio": "/Users/xiashishi/github/egret-core/src/egret/context/audio/QQAudio.ts",
+		"egret.AudioType": "/Users/xiashishi/github/egret-core/src/egret/context/Html5Capatibility.ts",
+		"egret.SystemOSType": "/Users/xiashishi/github/egret-core/src/egret/context/Html5Capatibility.ts",
+		"egret.Html5Capatibility": "/Users/xiashishi/github/egret-core/src/egret/context/Html5Capatibility.ts",
+		"egret.NativeDeviceContext": "/Users/xiashishi/github/egret-core/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_external_interface.callBackDic": "/Users/xiashishi/github/egret-core/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_external_interface.call": "/Users/xiashishi/github/egret-core/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_external_interface.addCallback": "/Users/xiashishi/github/egret-core/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_external_interface.onReceivedPluginInfo": "/Users/xiashishi/github/egret-core/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_external_interface.init": "/Users/xiashishi/github/egret-core/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_localStorage.filePath": "/Users/xiashishi/github/egret-core/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_localStorage.getItem": "/Users/xiashishi/github/egret-core/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_localStorage.setItem": "/Users/xiashishi/github/egret-core/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_localStorage.removeItem": "/Users/xiashishi/github/egret-core/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_localStorage.clear": "/Users/xiashishi/github/egret-core/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_localStorage.save": "/Users/xiashishi/github/egret-core/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret_native_localStorage.init": "/Users/xiashishi/github/egret-core/src/egret/context/devices/NativeDeviceContext.ts",
+		"egret.NativeRendererContext": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/NativeRendererContext.ts",
+		"egret_native_graphics": "/Users/xiashishi/github/egret-core/src/egret/context/renderer/NativeRendererContext.ts",
+		"egret.NativeTouchContext": "/Users/xiashishi/github/egret-core/src/egret/context/interactive/NativeTouchContext.ts",
+		"egret_native.onTouchesBegin": "/Users/xiashishi/github/egret-core/src/egret/context/interactive/NativeTouchContext.ts",
+		"egret_native.onTouchesMove": "/Users/xiashishi/github/egret-core/src/egret/context/interactive/NativeTouchContext.ts",
+		"egret_native.onTouchesEnd": "/Users/xiashishi/github/egret-core/src/egret/context/interactive/NativeTouchContext.ts",
+		"egret_native.onTouchesCancel": "/Users/xiashishi/github/egret-core/src/egret/context/interactive/NativeTouchContext.ts",
+		"egret_native.executeTouchCallback": "/Users/xiashishi/github/egret-core/src/egret/context/interactive/NativeTouchContext.ts",
+		"egret.NativeNetContext": "/Users/xiashishi/github/egret-core/src/egret/context/net/NativeNetContext.ts",
+		"egret.NativeStageText": "/Users/xiashishi/github/egret-core/src/egret/context/display/NativeStageText.ts",
+		"egret.NativeResourceLoader": "/Users/xiashishi/github/egret-core/src/egret/context/net/NativeResourceLoader.ts",
+		"egret.NativeAudio": "/Users/xiashishi/github/egret-core/src/egret/context/audio/NativeAudio.ts",
+		"egret_native_sound.currentPath": "/Users/xiashishi/github/egret-core/src/egret/context/audio/NativeAudio.ts",
+		"egret.NativeVersionController": "/Users/xiashishi/github/egret-core/src/extension/oldVersion/NativeVersionController.ts",
+		"RES.ResourceEvent": "/Users/xiashishi/github/egret-core/src/extension/resource/events/ResourceEvent.ts",
+		"RES.ResourceItem": "/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceItem.ts",
+		"RES.ResourceConfig": "/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceConfig.ts",
+		"RES.ResourceLoader": "/Users/xiashishi/github/egret-core/src/extension/resource/core/ResourceLoader.ts",
+		"RES.AnalyzerBase": "/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/AnalyzerBase.ts",
+		"RES.BinAnalyzer": "/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/BinAnalyzer.ts",
+		"RES.ImageAnalyzer": "/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/ImageAnalyzer.ts",
+		"RES.JsonAnalyzer": "/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/JsonAnalyzer.ts",
+		"RES.TextAnalyzer": "/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/TextAnalyzer.ts",
+		"RES.SheetAnalyzer": "/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/SheetAnalyzer.ts",
+		"RES.FontAnalyzer": "/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/FontAnalyzer.ts",
+		"RES.SoundAnalyzer": "/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/SoundAnalyzer.ts",
+		"RES.XMLAnalyzer": "/Users/xiashishi/github/egret-core/src/extension/resource/analyzer/XMLAnalyzer.ts",
+		"RES.loadConfig": "/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+		"RES.loadGroup": "/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+		"RES.isGroupLoaded": "/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+		"RES.getGroupByName": "/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+		"RES.createGroup": "/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+		"RES.hasRes": "/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+		"RES.parseConfig": "/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+		"RES.getRes": "/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+		"RES.getResAsync": "/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+		"RES.getResByUrl": "/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+		"RES.destroyRes": "/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+		"RES.setMaxLoadingThread": "/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+		"RES.setMaxRetryTimes": "/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+		"RES.addEventListener": "/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+		"RES.removeEventListener": "/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts",
+		"RES.Resource": "/Users/xiashishi/github/egret-core/src/extension/resource/Resource.ts"
+	}
+}

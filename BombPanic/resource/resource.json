@@ -1,0 +1,35 @@
+{
+	"resources": [
+		{
+			"name": "bgImage",
+			"type": "image",
+			"url": "assets/background.png"
+		},
+		{
+			"name": "bombImage",
+			"type": "image",
+			"url": "assets/bomb.png"
+		},
+		{
+		  "name": "boxImage",
+		  "type": "image",
+		  "url": "assets/box.png"
+		},
+		{
+		  "name": "gameOver",
+		  "type": "image",
+		  "url": "assets/gameOver.png"
+		},
+		{
+		  "name": "hero",
+		  "type": "image",
+		  "url": "assets/character.png"
+		}
+	],
+	"groups": [
+		{
+			"name": "preload",
+			"keys": "bgImage,bombImage,boxImage,gameOver,hero"
+		}
+	]
+}
