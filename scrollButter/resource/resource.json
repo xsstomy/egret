@@ -1,0 +1,25 @@
+{
+	"resources": [
+		{
+			"name": "bgImage",
+			"type": "image",
+			"url": "assets/body.jpg"
+		},
+		{
+			"name": "heroImage",
+			"type": "image",
+			"url": "assets/maliao.png"
+		},
+		{
+			"name": "description",
+			"type": "json",
+			"url": "config/description.json"
+		}
+	],
+	"groups": [
+		{
+			"name": "preload",
+			"keys": "bgImage,heroImage"
+		}
+	]
+}

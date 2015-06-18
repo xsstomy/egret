@@ -1,0 +1,6 @@
+[
+	"core/KeyBoard.ts",
+	"LoadingUI.ts",
+	"core/Scroll.ts",
+	"Main.ts"
+]
