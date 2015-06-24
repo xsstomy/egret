@@ -1,4 +1,12 @@
 [
+	"core/Util/CollisionSide.ts",
+	"core/Util/Collision.ts",
+	"core/Util/KeyBoard.ts",
+	"core/display/Background.ts",
+	"core/display/Bomb.ts",
+	"core/display/GameOver.ts",
+	"core/display/Hero.ts",
 	"LoadingUI.ts",
+	"core/TimeBombPanic.ts",
 	"Main.ts"
 ]

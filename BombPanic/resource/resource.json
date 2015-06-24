@@ -21,7 +21,7 @@
 		  "url": "assets/gameOver.png"
 		},
 		{
-		  "name": "hero",
+		  "name": "heroImage",
 		  "type": "image",
 		  "url": "assets/character.png"
 		}
@@ -29,7 +29,7 @@
 	"groups": [
 		{
 			"name": "preload",
-			"keys": "bgImage,bombImage,boxImage,gameOver,hero"
+			"keys": "bgImage,bombImage,boxImage,gameOver,heroImage"
 		}
 	]
 }

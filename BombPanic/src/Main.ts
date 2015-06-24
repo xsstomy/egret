@@ -85,8 +85,7 @@ class Main extends egret.DisplayObjectContainer {
      * Create a game scene
      */
     private createGameScene():void {
-
-
+        this.addChild(new xss.TimeBombPanic());
     }
 
 
