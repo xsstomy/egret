@@ -7,10 +7,16 @@ var game_file_list = [
 	"libs/modules/eui/eui.js",
 	"libs/modules/res/res.js",
 	"libs/modules/tween/tween.js",
+	"bin-debug/core/BevNode.js",
+	"bin-debug/core/BevNodeTerminal.js",
+	"bin-debug/core/BevNodeInputParam.js",
+	"bin-debug/core/BevNodeOutputParam.js",
 	"bin-debug/AssetAdapter.js",
-	"bin-debug/LoadingUI.js",
-	"bin-debug/Main.js",
+	"bin-debug/core/NODIdle.js",
 	"bin-debug/ThemeAdapter.js",
+	"bin-debug/Main.js",
+	"bin-debug/LoadingUI.js",
+	"bin-debug/core/BevNodePrecondition.js",
 	//----auto game_file_list end----
 ];
 
