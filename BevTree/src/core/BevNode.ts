@@ -74,13 +74,14 @@ class BevNode extends egret.DisplayObjectContainer {
     }
 
     doEvaluate(input: BevNodeInputParam) {
+        return false;
     }
 
-    tick(input: BevNodeInputParam, output: BevNodeOutputParam) {
-        this.doTick(input, output);
+    tick(input: BevNodeInputParam, output: BevNodeOutputParam): BevRunningStatus {
+        return this.doTick(input, output);
     }
 
     doTick(input: BevNodeInputParam, output: BevNodeOutputParam) {
-
+        return BevRunningStatus.BRS_Finish;
     }
 }

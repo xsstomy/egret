@@ -14,4 +14,75 @@ class BevNodeParallel extends BevNode {
 
     finishCondition;
     childNodeStatus: BevRunningStatus[];
+
+    doEvaluate(input: BevNodeInputParam) {
+
+        for (let i = 0; i < this.childNodeCount; ++i) {
+            let childNode = this.childNodeList[i];
+            if (this.childNodeStatus[i] == 0) {
+                if (!childNode.evaluate(input)) {
+                    return false;
+                }
+            }
+        }
+
+        return true;
+    }
+
+    doTransition(input: BevNodeInputParam) {
+        for (let i = 0; i < this.maxChildNodeCnt; ++i) {
+            this.childNodeStatus[i] = BevRunningStatus.BRS_Executing;
+        }
+
+        for (let i = 0; i < this.childNodeCount; ++i) {
+            let childNode = this.childNodeList[i];
+            childNode.doTransition(input);
+        }
+    }
+
+    doTick(input: BevNodeInputParam, output: BevNodeOutputParam) {
+        let finishedChildCount = 0;
+
+        for (let i = 0; i < this.childNodeCount; ++i) {
+            let childNode = this.childNodeList[i];
+            if (this.finishCondition == ParallelFinishCondition.PFC_OR) {
+
+                if (this.childNodeStatus[i] == BevRunningStatus.BRS_Executing) {
+                    this.childNodeStatus[i] = childNode.tick(input, output);
+
+                } else if (this.childNodeStatus[i] != BevRunningStatus.BRS_Executing) {
+                    for (let i = 0; i < this.maxChildNodeCnt; ++i) {
+                        this.childNodeStatus[i] = BevRunningStatus.BRS_Executing;
+                    }
+
+                    return BevRunningStatus.BRS_Finish;
+                }
+            } else if (this.finishCondition == ParallelFinishCondition.PFC_AND) {
+
+                if (this.childNodeStatus[i] == BevRunningStatus.BRS_Executing) {
+                    this.childNodeStatus[i] = childNode.tick(input, output);
+
+                } else {
+                    finishedChildCount++;
+                }
+
+            } else {
+                console.warn('BevNodeParallel errorFunc')
+            }
+        }
+
+        if (finishedChildCount == this.childNodeCount) {
+            for (let i = 0; i < this.maxChildNodeCnt; ++i) {
+                this.childNodeStatus[i] = BevRunningStatus.BRS_Executing;
+            }
+            return BevRunningStatus.BRS_Finish;
+        }
+
+        return BevRunningStatus.BRS_Executing;
+    }
+
+    setFinishedCondition(condition: ParallelFinishCondition) {
+        this.finishCondition = condition;
+        return this;
+    }
 }

@@ -9,5 +9,13 @@ class BevNodeNonePrioritySelector extends BevNodePrioritySelector {
 
     doEvaluate(input: BevNodeInputParam) {
 
+        if (this.checkIndex(this.currSelectIndex)) {
+            let childNode = this.childNodeList[this.currSelectIndex];
+            if (childNode.evaluate(input)) {
+                return true;
+            }
+        }
+
+        return super.doEvaluate(input);
     }
 }
