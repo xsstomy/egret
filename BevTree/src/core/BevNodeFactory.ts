@@ -36,7 +36,7 @@ class BevNodeFactory {
 
     //行为节点
     public static createTerminalNode(parentNode: BevNode, debugName: string) {
-        let p = new BevNodeTerminal(parentNode);
+        let p: BevNodeTerminal = new Terminal(parentNode);
         this.createNodeCommon(p, parentNode, debugName);
         return p;
     }
@@ -48,3 +48,10 @@ class BevNodeFactory {
         }
     }
 }
+
+class Terminal<T extends BevNodeTerminal> extends BevNodeTerminal {
+    public constructor(parentNode: BevNode, nodePrecondition: BevNodePrecondition = null) {
+        super(parentNode, nodePrecondition);
+    }
+}
+

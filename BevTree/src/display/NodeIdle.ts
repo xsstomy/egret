@@ -1,4 +1,7 @@
-class NODIdle extends BevNodeTerminal {
+/**
+ * //空闲，表现是颜色不停变化
+ */
+class NodeIdle extends BevNodeTerminal {
     public constructor(parentNode: BevNode, nodePrecondition: BevNodePrecondition = null) {
         super(parentNode, nodePrecondition)
 
@@ -10,12 +13,13 @@ class NODIdle extends BevNodeTerminal {
         this.waitingTime = 0.5;
     }
 
-    doExit(input: BevNodeInputParam) {
+    doExecute(input: BevNodeInputParam, output: BevNodeOutputParam) {
 
-        const timestep = 0.1;
+        const timestep = input.timeStep;
         this.waitingTime -= timestep;
 
         if (this.waitingTime < 0) {
+            output.bodyColor = parseInt(Math.floor(Math.random() * 0xffffff).toString(16), 16);
             return BevRunningStatus.BRS_Finish;
         }
 

@@ -1,5 +1,5 @@
 class BevNodePrecondition {
-    public externalCondition() {
+    public externalCondition(input: BevNodeInputParam) {
         return false;
     }
 }

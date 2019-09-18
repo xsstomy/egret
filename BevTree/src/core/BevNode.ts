@@ -70,7 +70,7 @@ class BevNode extends egret.DisplayObjectContainer {
     }
 
     evaluate(input: BevNodeInputParam) {
-        return (this.nodePrecondition == null || this.nodePrecondition.externalCondition()) && this.doEvaluate(input);
+        return (this.nodePrecondition == null || this.nodePrecondition.externalCondition(input)) && this.doEvaluate(input);
     }
 
     doEvaluate(input: BevNodeInputParam) {
