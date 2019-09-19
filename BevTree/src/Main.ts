@@ -129,7 +129,27 @@ class Main extends eui.UILayer {
      * Create scene interface
      */
     protected startCreateScene(): void {
+        let testObj = new DrawObject();
+        this.addChild(testObj);
+        testObj.create();
+        let preTime = 0;
+        let preTimeStep = 0;
+        let shape = new egret.Shape();
+        shape.graphics.beginFill(0xff0000, 1);
+        shape.graphics.drawCircle(testObj.targetPosition.x, testObj.targetPosition.y, 10);
+        shape.graphics.endFill();
+        this.addChild(shape);
+        egret.startTick((allTime) => {
+            let timeStep = allTime - preTime;
 
+            if (allTime - preTimeStep > 1000) {
+                testObj.tick(timeStep);
+                preTimeStep = allTime;
+            }
+
+            preTime = allTime;
+            return false;
+        }, this)
         // let sky:egret.Bitmap = this.createBitmapByName("bg_jpg");
         // this.addChild(sky);
         // let stageW:number = this.stage.stageWidth;

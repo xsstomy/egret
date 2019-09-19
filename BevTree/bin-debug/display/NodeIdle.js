@@ -6,23 +6,28 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var NODIdle = (function (_super) {
-    __extends(NODIdle, _super);
-    function NODIdle(parentNode, nodePrecondition) {
+/**
+ * //空闲，表现是颜色不停变化
+ */
+var NodeIdle = (function (_super) {
+    __extends(NodeIdle, _super);
+    function NodeIdle(parentNode, nodePrecondition) {
         if (nodePrecondition === void 0) { nodePrecondition = null; }
         return _super.call(this, parentNode, nodePrecondition) || this;
     }
-    NODIdle.prototype.doEnter = function (input) {
+    NodeIdle.prototype.doEnter = function (input) {
         this.waitingTime = 0.5;
     };
-    NODIdle.prototype.doExit = function (input) {
-        var timestep = 0.1;
+    NodeIdle.prototype.doExecute = function (input, output) {
+        var timestep = input.timeStep;
         this.waitingTime -= timestep;
         if (this.waitingTime < 0) {
+            output.bodyColor = parseInt(Math.floor(Math.random() * 0xffffff).toString(16), 16);
             return BevRunningStatus.BRS_Finish;
         }
         return BevRunningStatus.BRS_Executing;
     };
-    return NODIdle;
+    return NodeIdle;
 }(BevNodeTerminal));
-__reflect(NODIdle.prototype, "NODIdle");
+__reflect(NodeIdle.prototype, "NodeIdle");
+//# sourceMappingURL=NodeIdle.js.map

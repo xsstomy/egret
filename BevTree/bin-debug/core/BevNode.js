@@ -9,16 +9,19 @@ var __extends = (this && this.__extends) || function (d, b) {
 /**
  * 基础节点
  */
+var MAX_CHILD_NODE_CNT = 16;
+var InvalidChildNodeIndex = MAX_CHILD_NODE_CNT;
 var BevNode = (function (_super) {
     __extends(BevNode, _super);
     function BevNode(parentNode, nodePrecondition) {
         if (nodePrecondition === void 0) { nodePrecondition = null; }
         var _this = _super.call(this) || this;
-        _this.maxChildNodeCnt = 16;
+        _this.maxChildNodeCnt = MAX_CHILD_NODE_CNT;
         _this.childNodeCount = 0;
         _this.activeNode = null;
         _this.lastActiveNode = null;
         _this.nodePrecondition = null;
+        _this.childNodeList = [];
         _this.debugName = 'UNNAMED';
         for (var i = 0; i < _this.maxChildNodeCnt; i++) {
             _this.childNodeList[i] = null;
@@ -59,11 +62,18 @@ var BevNode = (function (_super) {
     BevNode.prototype.doTransition = function (input) {
     };
     BevNode.prototype.evaluate = function (input) {
-        return (this.nodePrecondition == null || this.nodePrecondition.externalCondition()) && this.doEvaluate(input);
+        return (this.nodePrecondition == null || this.nodePrecondition.externalCondition(input)) && this.doEvaluate(input);
     };
     BevNode.prototype.doEvaluate = function (input) {
         return true;
     };
+    BevNode.prototype.tick = function (input, output) {
+        return this.doTick(input, output);
+    };
+    BevNode.prototype.doTick = function (input, output) {
+        return BevRunningStatus.BRS_Finish;
+    };
     return BevNode;
 }(egret.DisplayObjectContainer));
 __reflect(BevNode.prototype, "BevNode");
+//# sourceMappingURL=BevNode.js.map

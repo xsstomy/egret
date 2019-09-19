@@ -13,9 +13,9 @@ class NodeBreathe extends BevNodeTerminal {
     doExecute(input: BevNodeInputParam, output: BevNodeOutputParam) {
 
         const timestep = input.timeStep;
-        const maxBodySize = 12;
-        const minBodySize = 10;
-        const size = 10;
+        const maxBodySize = 50;
+        const minBodySize = 50;
+        const size = 1;
         if (this._isIncreasing) {
             output.bodySize += (timestep * size);
             if (output.bodySize > maxBodySize) {

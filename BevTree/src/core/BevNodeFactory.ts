@@ -1,7 +1,8 @@
 class BevNodeFactory {
     //并行节点
-    public static createParallelNode(parentNode: BevNode, condition: BevNodePrecondition, debugName: string) {
-        let p = new BevNodeParallel(parentNode, condition);
+    public static createParallelNode(parentNode: BevNode, condition: ParallelFinishCondition, debugName: string) {
+        let p = new BevNodeParallel(parentNode);
+        p.setFinishCondition(condition);
         this.createNodeCommon(p, parentNode, debugName);
         return p;
     }
@@ -35,8 +36,8 @@ class BevNodeFactory {
     }
 
     //行为节点
-    public static createTerminalNode(parentNode: BevNode, debugName: string) {
-        let p: BevNodeTerminal = new Terminal(parentNode);
+    public static createTerminalNode<T extends BevNodeTerminal>(t: new (parentNode: BevNode) => T, parentNode: BevNode, debugName: string) {
+        let p: BevNodeTerminal = new t(parentNode);
         this.createNodeCommon(p, parentNode, debugName);
         return p;
     }
@@ -49,9 +50,4 @@ class BevNodeFactory {
     }
 }
 
-class Terminal<T extends BevNodeTerminal> extends BevNodeTerminal {
-    public constructor(parentNode: BevNode, nodePrecondition: BevNodePrecondition = null) {
-        super(parentNode, nodePrecondition);
-    }
-}
 

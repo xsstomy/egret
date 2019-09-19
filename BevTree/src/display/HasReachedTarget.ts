@@ -5,8 +5,8 @@ class HasReachedTarget extends BevNodePrecondition {
         let targetPos = input.targetPosition;
         const disX = Math.abs(currPos.x - targetPos.x);
         const disY = Math.abs(currPos.y - targetPos.y);
-        const disLength = disY * disY + disX * disX;
-        if (Math.sqrt(disLength) < 1) {
+        const disLength = Math.sqrt(disY * disY + disX * disX);
+        if (disLength < 1) {
             return true;
         }
 

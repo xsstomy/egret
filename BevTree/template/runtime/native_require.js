@@ -8,15 +8,32 @@ var game_file_list = [
 	"libs/modules/res/res.js",
 	"libs/modules/tween/tween.js",
 	"bin-debug/core/BevNode.js",
+	"bin-debug/core/BevNodePrioritySelector.js",
+	"bin-debug/core/BevNodePrecondition.js",
 	"bin-debug/core/BevNodeTerminal.js",
-	"bin-debug/core/BevNodeInputParam.js",
-	"bin-debug/core/BevNodeOutputParam.js",
+	"bin-debug/core/BevNodeFactory.js",
+	"bin-debug/core/BevNodePreconditionAnd.js",
+	"bin-debug/core/BevNodePreconditionFalse.js",
+	"bin-debug/core/BevNodePreconditionNot.js",
+	"bin-debug/core/BevNodePreconditionOr.js",
+	"bin-debug/core/BevNodePreconditionTrue.js",
 	"bin-debug/AssetAdapter.js",
-	"bin-debug/core/NODIdle.js",
+	"bin-debug/core/BevNodeSequence.js",
+	"bin-debug/core/BevNodeNonePrioritySelector.js",
+	"bin-debug/core/BevNodeLoop.js",
+	"bin-debug/display/BevNodeOutputParam.js",
+	"bin-debug/display/DrawObject.js",
+	"bin-debug/display/HasFacedTarget.js",
+	"bin-debug/display/HasReachedTarget.js",
+	"bin-debug/display/NodeBreathe.js",
+	"bin-debug/display/NodeFaceTo.js",
+	"bin-debug/display/NodeIdle.js",
+	"bin-debug/display/NodeMoveTo.js",
+	"bin-debug/core/BevNodeParallel.js",
 	"bin-debug/ThemeAdapter.js",
 	"bin-debug/Main.js",
 	"bin-debug/LoadingUI.js",
-	"bin-debug/core/BevNodePrecondition.js",
+	"bin-debug/display/BevNodeInputParam.js",
 	//----auto game_file_list end----
 ];
 
@@ -32,13 +49,8 @@ egret_native.requireFiles = function () {
 };
 
 egret_native.egretInit = function () {
-    if(egret_native.featureEnable) {
-        //控制一些优化方案是否开启
-        var result = egret_native.featureEnable({
-            
-        });
-    }
     egret_native.requireFiles();
+    egret.TextField.default_fontFamily = "/system/fonts/DroidSansFallback.ttf";
     //egret.dom为空实现
     egret.dom = {};
     egret.dom.drawAsCanvas = function () {
@@ -66,6 +78,6 @@ egret_native.egretStart = function () {
 
     egret.native.NativePlayer.option = option;
     egret.runEgret();
-    egret_native.Label.createLabel("/system/fonts/DroidSansFallback.ttf", 20, "", 0);
+    egret_native.Label.createLabel(egret.TextField.default_fontFamily, 20, "", 0);
     egret_native.EGTView.preSetOffScreenBufferEnable(true);
 };

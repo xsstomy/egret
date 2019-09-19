@@ -4,9 +4,10 @@ var __reflect = (this && this.__reflect) || function (p, c, t) {
 var BevNodePrecondition = (function () {
     function BevNodePrecondition() {
     }
-    BevNodePrecondition.prototype.externalCondition = function () {
+    BevNodePrecondition.prototype.externalCondition = function (input) {
         return false;
     };
     return BevNodePrecondition;
 }());
 __reflect(BevNodePrecondition.prototype, "BevNodePrecondition");
+//# sourceMappingURL=BevNodePrecondition.js.map

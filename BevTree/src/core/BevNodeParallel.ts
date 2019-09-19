@@ -7,6 +7,8 @@
 class BevNodeParallel extends BevNode {
     public constructor(parentNode: BevNode, nodePrecondition: BevNodePrecondition = null) {
         super(parentNode, nodePrecondition);
+        this.finishCondition = ParallelFinishCondition.PFC_OR;
+        this.childNodeStatus = [];
         for (let i = 0; i < MAX_CHILD_NODE_CNT; i++) {
             this.childNodeStatus[i] = BevRunningStatus.BRS_Executing;
         }
@@ -81,7 +83,7 @@ class BevNodeParallel extends BevNode {
         return BevRunningStatus.BRS_Executing;
     }
 
-    setFinishedCondition(condition: ParallelFinishCondition) {
+    setFinishCondition(condition: ParallelFinishCondition) {
         this.finishCondition = condition;
         return this;
     }

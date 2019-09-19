@@ -11,6 +11,7 @@ class BevNode extends egret.DisplayObjectContainer {
         this.activeNode = null;
         this.lastActiveNode = null;
         this.nodePrecondition = null;
+        this.childNodeList = [];
         this.debugName = 'UNNAMED';
         for (let i = 0; i < this.maxChildNodeCnt; i++) {
             this.childNodeList[i] = null;
@@ -74,7 +75,7 @@ class BevNode extends egret.DisplayObjectContainer {
     }
 
     doEvaluate(input: BevNodeInputParam) {
-        return false;
+        return true;
     }
 
     tick(input: BevNodeInputParam, output: BevNodeOutputParam): BevRunningStatus {
